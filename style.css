@@ -133,7 +133,6 @@ nav ul li a:hover::after {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center -50px;
-    background-attachment: local;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -931,6 +930,7 @@ footer .social a:hover {
 
     #hero {
         background-position: 20% 100px;
+        overflow-x: hidden;
     }
 
     section h2 {
