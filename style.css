@@ -164,9 +164,9 @@ nav ul li a:hover::after {
 #hero h1 {
     font-size: 3rem;
     font-weight: 700;
-    text-transform:capitalize;
+    text-transform: capitalize;
     letter-spacing: 6px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #hero p {
