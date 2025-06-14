@@ -133,7 +133,7 @@ nav ul li a:hover::after {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center -50px;
-    background-attachment: fixed;
+    background-attachment: local;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,7 +162,7 @@ nav ul li a:hover::after {
 }
 
 #hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 6px;
