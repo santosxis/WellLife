@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Well Life">
+    <meta name="description"
+        content="Transforme sua vida com Well Life - Personal Training de Elite. Performance, exclusividade e resultados incomparáveis.">
+    <title>Well Life - Personal Training</title>
+    <link rel="shortcut icon" href="assets/favicon-well.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo"><span>ell</span> <span>ife</span></div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#cta">Comece Agora</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Well Personal</h1>
+            <p>Transforme-se com o treino de elite que redefine limites.</p>
+            <a href="#cta" class="hero-btn">Descubra seu Potencial</a>
+        </div>
+        <div class="parallax-overlay"></div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Personal</h2>
+            <div class="sobre-content">
+                <img src="./assets/personal-img2.jpg" alt="Personal Trainer" loading="lazy">
+                <div>
+                    <p>Com mais de 6 anos de experiência, ajudo a transformar corpos e mentes com um método exclusivo
+                        que une ciência, tecnologia e acompanhamento em tempo real.
+                        Treinos otimizados, foco total no seu resultado e um compromisso: te levar ao topo.
+                        É você contra você — e eu estou aqui pra garantir sua vitória.</p>
+                </div>
+            </div>
+            <div class="diferenciais">
+                <div class="diferencial"><i class="fas fa-dumbbell"></i>
+                    <h3>Performance Máxima</h3>
+                </div>
+                <div class="diferencial"><i class="fas fa-shield-alt"></i>
+                    <h3>Segurança Total</h3>
+                </div>
+                <div class="diferencial"><i class="fas fa-chart-line"></i>
+                    <h3>Evolução Contínua</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planos">
+        <div class="container">
+            <h2>Planos de Treino</h2>
+            <div class="planos-grid">
+                <div class="plano-card">
+                    <h3>Básico</h3>
+                    <p>Plano inicial para iniciantes. <br> 3 sessões/semana.</p>
+                    <label>Escolha Sessões:</label>
+                    <select class="session-select" data-base-price="99">
+                        <option value="3">Básico Padrão 3 Sessões </option>
+                        <option value="8">Básico Warrior 6 Sessões</option>
+                        <option value="12">Básico Titan 10 Sessões</option>
+                    </select>
+                    <span class="custom-price"></span>
+                    <button class="plan-btn" data-plan="basico">Escolher</button>
+                </div>
+                <div class="plano-card">
+                    <h3>Premium</h3>
+                    <p>Plano intermediário com suporte personalizado. <br>
+                        5 sessões/semana + nutrição</p>
+                    <label>Escolha Sessões:</label>
+                    <select class="session-select" data-base-price="199">
+                        <option value="5">Premium Warrior 5 Sessões </option>
+                        <option value="8">Premium Titan 8 Sessões </option>
+                        <option value="12">Premium Monster 14 Sessões </option>
+                    </select>
+                    <span class="custom-price"></span>
+                    <button class="plan-btn" data-plan="premium">Escolher</button>
+                </div>
+                <div class="plano-card">
+                    <h3>Elite</h3>
+                    <p>Plano completo para resultados máximos. <br>
+                        6 sessões/semana + consultoria</p>
+                    <label>Escolha Sessões:</label>
+                    <select class="session-select" data-base-price="299">
+                        <option value="6">Elite Titan 6 Sessões </option>
+                        <option value="8">Elite Monster 8 Sessões </option>
+                        <option value="12">Elite Lenda 12 Sessões</option>
+                    </select>
+                    <span class="custom-price"></span>
+                    <button class="plan-btn" data-plan="elite">Escolher</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resultados">
+        <div class="container">
+            <h2>Resultados Reais</h2>
+            <div class="resultados-grid">
+                <div class="resultado-card"><img src="assets/carlos.jpeg" alt="Antes e Depois" loading="lazy">
+                    <p>João - -15kg</p>
+                </div>
+                <div class="resultado-card"><img src="assets/maria-resultado.jpeg" alt="Antes e Depois" loading="lazy">
+                    <p>Maria - +10cm bíceps</p>
+                </div>
+                <div class="resultado-card"><img src="assets/joao-resultado.jpeg" alt="Antes e Depois" loading="lazy">
+                    <p>Carlos - -20% gordura</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <div class="carousel">
+                <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <blockquote>“Minha vida mudou com o Well Life. Força e confiança que eu nunca imaginei!”
+                        </blockquote>
+                        <cite>João P.</cite>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote>“Resultados incríveis em 3 meses. Recomendo de olhos fechados!”</blockquote>
+                        <cite>Ana S.</cite>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote>“Treino de elite que transformou meu corpo e minha mente.”</blockquote>
+                        <cite>Carlos R.</cite>
+                    </div>
+                </div>
+                <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Transforme-se Hoje</h2>
+            <a href="#" class="cta-btn" id="openModalBtn">Comece Agora</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Well Life. Todos os direitos reservados.</p>
+            <div class="social">
+                <a href="https://www.instagram.com/wellington_gn1902/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Whatsapp -->
+    <div id="whatsapp-btn" class="whatsapp-btn">
+        <a href="https://wa.me/16996461059" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
