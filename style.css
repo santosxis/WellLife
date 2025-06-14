@@ -958,14 +958,6 @@ footer .social a:hover {
         max-width: 90%;
     }
 
-    #depoimentos h2 {
-        font-size: 3.0rem;
-    }
-
-    #sobre p {
-        width: 400px;
-    }
-
     .modal-content {
         padding: 25px;
         max-width: 90%;
@@ -977,8 +969,16 @@ footer .social a:hover {
         padding: 8px;
     }
 
+    #sobre p {
+        width: 350px;
+    }
+
+    #depoimentos h2 {
+        font-size: 2rem;
+    }
+
     #cta h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -1035,14 +1035,5 @@ footer .social a:hover {
     .sobre-content img {
         max-width: 250px;
     }
-    #sobre p {
-        width: 350px;
-    }
-     #depoimentos h2 {
-        font-size: 2.5rem;
-    }
-    #cta h2 {
-        font-size: 2rem;
-    }
-}
 
+}
